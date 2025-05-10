@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Sale Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🚗 Dream Car Sales</h1>
+    <p>Find your perfect ride today</p>
+  </header>
+
+  <main>
+    <section id="car-list">
+      <!-- Cars will be loaded here via JavaScript -->
+    </section>
+
+    <section id="buy-form">
+      <h2>Buy a Car</h2>
+      <input type="text" id="buyerName" placeholder="Your Name">
+      <select id="carSelect"></select>
+      <button onclick="purchaseCar()">Buy Now</button>
+    </section>
+
+    <section id="receipt"></section>
+  </main>
+
+  <footer>
+    <p>© 2025 Dream Car Sales. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
